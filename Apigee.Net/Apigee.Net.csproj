@@ -50,7 +50,7 @@
   <ItemGroup>
     <Compile Include="ApigeeClient.cs" />
     <Compile Include="Models\ApiResponse\CreateApigeeAccountResponse.cs" />
-    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\ApigeeUserModel.cs" />
     <Compile Include="Networking\HttpTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

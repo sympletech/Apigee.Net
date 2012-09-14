@@ -1,6 +1,6 @@
 ﻿namespace Apigee.Net.Models
 {
-    public class UserModel
+    public class ApigeeUserModel
     {
         public string Uuid { get; set; }
         public string Username { get; set; }

@@ -52,8 +52,12 @@ namespace Apigee.Net
 
         private JToken GetEntitiesFromJson(string rawJson)
         {
-            var objResult = JObject.Parse(rawJson);
-            return objResult.SelectToken("entities");
+            if (string.IsNullOrEmpty(rawJson) != true)
+            {
+                var objResult = JObject.Parse(rawJson);
+                return objResult.SelectToken("entities");
+            }
+            return null;
         }
 
         /// <summary>
@@ -85,15 +89,15 @@ namespace Apigee.Net
 
         #region Account Management
 
-        public List<UserModel> GetUsers()
+        public List<ApigeeUserModel> GetUsers()
         {
             var rawResults = PerformRequest<string>("/users");
             var users = GetEntitiesFromJson(rawResults);
             
-            List<UserModel> results = new List<UserModel>();
+            List<ApigeeUserModel> results = new List<ApigeeUserModel>();
             foreach (var usr in users)
             {
-                results.Add(new UserModel { 
+                results.Add(new ApigeeUserModel { 
                     Uuid = (usr["uuid"] ?? "").ToString(),
                     Username = (usr["username"] ?? "").ToString(),
                     Password = (usr["password"] ?? "").ToString(),
@@ -112,17 +116,21 @@ namespace Apigee.Net
             return results;
         }
 
-        public CreateApigeeAccountResponse CreateAccount(UserModel accountModel)
+        public string CreateAccount(ApigeeUserModel accountModel)
         {
             var rawResults = PerformRequest<string>("/users", HttpTools.RequestTypes.Post, accountModel);
             var entitiesResult = GetEntitiesFromJson(rawResults);
-
-            return new CreateApigeeAccountResponse {
-                Uuid = entitiesResult[0]["uuid"].ToString()
-            };
+            if (entitiesResult != null)
+            {
+                return entitiesResult[0]["uuid"].ToString();
+            }
+            else
+            {
+                return UpdateAccount(accountModel);
+            }
         }
 
-        public string UpdateAccount(UserModel accountModel)
+        public string UpdateAccount(ApigeeUserModel accountModel)
         {
             var rawResults = PerformRequest<string>("/users/" + accountModel.Username, HttpTools.RequestTypes.Put, accountModel);
 
@@ -148,7 +156,7 @@ namespace Apigee.Net
             var rawResults = PerformRequest<string>(reqString);
             var entitiesResult = GetEntitiesFromJson(rawResults);
 
-            return entitiesResult["username"].ToString();
+            return entitiesResult[0]["username"].ToString();
         }
 
         #endregion
