@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apigee.Net", "Apigee.Net\Apigee.Net.csproj", "{F83A4FF7-A1CA-4F17-8CEC-60B7684220DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apigee.Net.Tests", "Apigee.Net.Tests\Apigee.Net.Tests.csproj", "{2D2A671F-A362-4A43-B848-D265C0CF7201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83A4FF7-A1CA-4F17-8CEC-60B7684220DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83A4FF7-A1CA-4F17-8CEC-60B7684220DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83A4FF7-A1CA-4F17-8CEC-60B7684220DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83A4FF7-A1CA-4F17-8CEC-60B7684220DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2A671F-A362-4A43-B848-D265C0CF7201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2A671F-A362-4A43-B848-D265C0CF7201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2A671F-A362-4A43-B848-D265C0CF7201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2A671F-A362-4A43-B848-D265C0CF7201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

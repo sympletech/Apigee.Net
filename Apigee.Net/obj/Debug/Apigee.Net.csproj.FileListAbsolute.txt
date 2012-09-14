@@ -1,0 +1,12 @@
+C:\Users\Daniel\Projects\Apigee.Net\Apigee.Net\obj\Debug\Apigee.Net.csprojResolveAssemblyReference.cache
+F:\Projects\Apigee.Net\Apigee.Net\obj\Debug\Apigee.Net.csprojResolveAssemblyReference.cache
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Apigee.Net.dll
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Apigee.Net.pdb
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\fastJSON.dll
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Krystalware.UploadHelper.dll
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\fastJSON.pdb
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Krystalware.UploadHelper.pdb
+F:\Projects\Apigee.Net\Apigee.Net\bin\Debug\Newtonsoft.Json.xml
+F:\Projects\Apigee.Net\Apigee.Net\obj\Debug\Apigee.Net.dll
+F:\Projects\Apigee.Net\Apigee.Net\obj\Debug\Apigee.Net.pdb

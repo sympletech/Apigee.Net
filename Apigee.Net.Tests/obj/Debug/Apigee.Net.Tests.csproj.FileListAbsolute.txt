@@ -1,0 +1,17 @@
+C:\Users\Daniel\Projects\Apigee.Net\Apigee.Net.Tests\obj\Debug\Apigee.Net.Tests.csprojResolveAssemblyReference.cache
+F:\Projects\Apigee.Net\Apigee.Net.Tests\obj\Debug\Apigee.Net.Tests.csprojResolveAssemblyReference.cache
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Apigee.Net.Tests.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Apigee.Net.Tests.pdb
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Apigee.Net.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\nunit.framework.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\nunit.mocks.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\fastJSON.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Krystalware.UploadHelper.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Apigee.Net.pdb
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\nunit.framework.xml
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\fastJSON.pdb
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Krystalware.UploadHelper.pdb
+F:\Projects\Apigee.Net\Apigee.Net.Tests\obj\Debug\Apigee.Net.Tests.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\obj\Debug\Apigee.Net.Tests.pdb
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Apigee.Net\Apigee.Net.Tests\bin\Debug\Newtonsoft.Json.xml
